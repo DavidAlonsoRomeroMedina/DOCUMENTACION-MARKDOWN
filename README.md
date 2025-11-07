@@ -20,15 +20,22 @@ MUESTRA
 Calcula la suma de A y B
 
 $$ A =
-\begin{matrix}
+\begin{pmatrix}
 1 & 2 & 3 \\
 4 & 5 & 6 \\
-\end{matrix}
+\end{pmatrix}
 $$
 
 $$ B =
-\begin{matrix}
+\begin{pmatrix}
 9 & 10 & 11 \\
 12 & 13 & 14 \\
-\end{matrix}
+\end{pmatrix}
+$$
+
+$$ A + B =
+\begin{pmatrix}
+1 + 9 & 2 + 10 & 3 + 11 \\
+4 + 12 & 5 + 13 & 6 + 14 \\
+\end{pmatrix}
 $$
