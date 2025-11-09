@@ -1,6 +1,7 @@
 # Tecnológico de Software
 ## Materia: Fundamentos de álgebra
-## Alumno: Tanjiro Jesús Hernández López
+## 11/11/2025
+## Alumno: Astrit Airan Cetzal Cetzal
 ## Actividad \#16 - Matrices doc
 
 ---
@@ -14,6 +15,18 @@ $$ A =
 0 & 1 \\
 \end{pmatrix}
 $$
+
+Matriz Diagonal: porque todos los elementos fuera de la diagonal principal son cero.
+
+$$ B =
+\begin{pmatrix}
+3 & 0 & 0 \\
+0 & -2 & 0 \\
+0 & 0 & 5 \\
+\end{pmatrix}
+$$
+
+
 
 MUESTRA
 
