@@ -58,7 +58,41 @@ $$(-1)(-8) - (4)(2) = 8 - 8 = 0$$
 $$(6)(3) - (9)(2) = 18 - 18 = 0$$
 
 
+### Ejercicio 2: Regla de Sarrus (Matrices $3\times3$)
 
+#### Enunciado del Problema
+Calcular el determinante de las matrices E y F:
+
+$$ E =
+\begin{pmatrix}
+1 & 2 & 3 \\
+0 & 1 & 4 \\
+5 & 6 & 0 \\
+\end{pmatrix}
+$$
+
+$$ F =
+\begin{pmatrix}
+2 & -1 & 3 \\
+1 & 4 & 0 \\
+3 & 2 & -2 \\
+\end{pmatrix}
+$$
+
+#### Solución o Respuesta
+- **Det(E)** = 1
+- **Det(F)** = -48
+
+#### Proceso/Procedimiento
+**Para la Matriz E:**
+1. **Diagonales descendentes (+):**
+$$(1)(1)(0) + (2)(4)(5) + (3)(0)(6) = 0 + 40 + 0 = 40$$
+
+2. **Diagonales ascendentes (-):**
+$$(5)(1)(3) + (6)(4)(1) + (0)(0)(2) = 15 + 24 + 0 = 39$$
+
+3. **Resultado:**
+$$40 - 39 = 1$$
 
 
 ---
