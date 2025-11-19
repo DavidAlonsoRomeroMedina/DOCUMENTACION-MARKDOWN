@@ -95,6 +95,46 @@ $$(5)(1)(3) + (6)(4)(1) + (0)(0)(2) = 15 + 24 + 0 = 39$$
 $$40 - 39 = 1$$
 
 
+### Ejercicio 3: Método de Cofactores
+
+#### Enunciado del Problema
+Calcular el determinante de la matriz G usando cofactores:
+
+$$ G =
+\begin{pmatrix}
+1 & 0 & 2 \\
+-1 & 3 & 1 \\
+2 & 0 & 1 \\
+\end{pmatrix}
+$$
+
+#### Solución o Respuesta
+El determinante es **-9**.
+
+#### Proceso/Procedimiento
+Se eligió la **Fila 1** por contener un cero.
+
+$$ det(G) = 1 \cdot
+\begin{vmatrix}
+3 & 1 \\
+0 & 1 \\
+\end{vmatrix}
+$$
+
+
+$$ - 0 + 2 \cdot
+\begin{vmatrix}
+-1 & 3 \\
+2 & 0 \\
+\end{vmatrix}
+$$
+
+$$det(G) = 1(3) + 2(-6)$$
+
+$$det(G) = 3 - 12 = -9$$
+
+
+
 ---
 
 
