@@ -1,4 +1,4 @@
-# Documentación de Ejercicios - [TU NOMBRE AQUÍ]
+# Documentación de Ejercicios - David Alonso Romero Medina
 
 ## Información General
 - **Materia:** Fundamentos de Álgebra
@@ -132,6 +132,73 @@ $$
 $$det(G) = 1(3) + 2(-6)$$
 
 $$det(G) = 3 - 12 = -9$$
+
+
+### Ejercicio 4: Propiedades de los Determinantes
+
+#### Enunciado
+Dadas las matrices A y B:
+
+$$ A =
+\begin{pmatrix}
+2 & 1 \\
+1 & 3 \\
+\end{pmatrix}
+$$
+
+$$ B =
+\begin{pmatrix}
+1 & 2 \\
+3 & 1 \\
+\end{pmatrix}
+$$
+
+Verificar que $det(AB) = det(A) \cdot det(B)$.
+
+#### Solución
+1. **Calculamos individuales:**
+   - Det(A) = $6 - 1 = 5$
+   - Det(B) = $1 - 6 = -5$
+   - Producto: $5 \times -5 = -25$
+
+2. **Calculamos matriz AB:**
+
+$$ AB =
+\begin{pmatrix}
+5 & 5 \\
+10 & 5 \\
+\end{pmatrix}
+$$
+
+3. **Determinante de AB:**
+   - $25 - 50 = -25$
+
+**Conclusión:** La propiedad se cumple ($-25 = -25$).
+
+### Ejercicio 5: Aplicación Geométrica
+
+#### Enunciado
+Calcular el área del paralelogramo formado por los vectores:
+
+$$\vec{v} = (3, 2)$$
+$$\vec{w} = (1, 4)$$
+
+#### Solución
+El área es **10 u²**.
+
+#### Proceso
+Colocamos los vectores en una matriz y calculamos el determinante:
+
+$$ Area = det
+\begin{pmatrix}
+3 & 2 \\
+1 & 4 \\
+\end{pmatrix}
+$$
+
+$$(3)(4) - (2)(1) = 12 - 2 = 10$$
+
+El valor absoluto del determinante es el área.
 
 
 
