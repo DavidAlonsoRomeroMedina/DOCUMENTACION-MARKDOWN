@@ -236,16 +236,7 @@ y = 2 |
 z = 3
 
 3. Inversa
-
-4. Cramer
-
-
-
-
-
-
-
-
+4. 
 # Cálculo de Matriz Inversa (Método Gauss-Jordan)
 
 Este documento detalla el procedimiento paso a paso para encontrar la inversa de la matriz de coeficientes del siguiente sistema de ecuaciones lineales.
